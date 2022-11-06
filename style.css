@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+
+}
+body{
+    background-color: black;
+
+}
+
+
+
+
+
+#btn-red{
+   
+    position: relative;
+    animation-name: rouge;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+@keyframes rouge {
+    0% {left: 0px; top: 0px;}
+    25%{left: 200px; top:0px;}
+    50% {left: 200px; top: 200px;}
+    75% {left: 0px; top: 200px;}
+    100% {left: 0px; top: 0px;}
+}
+#btn-blue{
+   
+    position: relative;
+    animation-name: bleu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-left: 2rem;
+}
+
+@keyframes bleu {
+    0% {left: 0px; top: 0px;}
+    25%{left: 0px; top:200px;}
+    50% {left: 200px; top: 200px;}
+    75% {left: 200px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}
